@@ -1,28 +1,28 @@
 # HLM-Web
 
 <p align="center">
-    <img width="350" src = https://github.com/uihilab/HLMWebFramework/raw/master/images/WebHLM-color.png>
+    <img width="350" src = https://github.com/uihilab/HLM-Web/blob/main/images/WebHLM-color.png>
 </p>
 
 ## Table of Contents
-* [Introduction](https://github.com/uihilab/HLMWebFramework#Introduction)
-* [About HLM](https://github.com/uihilab/HLMWebFramework#About-HLM)
-* [Getting Started](https://github.com/uihilab/HLMWebFramework#Getting-Started)
-* [Data Inputs](https://github.com/uihilab/HLMWebFramework#Data-Inputs)
-	* [Global Input File](https://github.com/uihilab/HLMWebFramework#Global-Input-File)
-	* [Network Connectivity File](https://github.com/uihilab/HLMWebFramework#Network-Connectivity-File)
-	* [Parameter File](https://github.com/uihilab/HLMWebFramework#Parameter-File)
-	* [Precipitation Forcing File](https://github.com/uihilab/HLMWebFramework#Precipitation-Forcing-File)
-	* [Evaporation Forcing File](https://github.com/uihilab/HLMWebFramework#Evaporation-Forcing-File)
-* [Numerical Solver](https://github.com/uihilab/HLMWebFramework#Numerical-Solver)
-* [Acknowledgements](https://github.com/uihilab/HLMWebFramework#Acknowledgements)
-* [References](https://github.com/uihilab/HLMWebFramework#References)
+* [Introduction](https://github.com/uihilab/HLM-Web#Introduction)
+* [About HLM](https://github.com/uihilab/HLM-Web#About-HLM)
+* [Getting Started](https://github.com/uihilab/HLM-Web#Getting-Started)
+* [Data Inputs](https://github.com/uihilab/HLM-Web#Data-Inputs)
+	* [Global Input File](https://github.com/uihilab/HLM-Web#Global-Input-File)
+	* [Network Connectivity File](https://github.com/uihilab/HLM-Web#Network-Connectivity-File)
+	* [Parameter File](https://github.com/uihilab/HLM-Web#Parameter-File)
+	* [Precipitation Forcing File](https://github.com/uihilab/HLM-Web#Precipitation-Forcing-File)
+	* [Evaporation Forcing File](https://github.com/uihilab/HLM-Web#Evaporation-Forcing-File)
+* [Numerical Solver](https://github.com/uihilab/HLM-Web#Numerical-Solver)
+* [Acknowledgements](https://github.com/uihilab/HLM-Web#Acknowledgements)
+* [References](https://github.com/uihilab/HLM-Web#References)
 
-<!-- * [Test Examples](https://github.com/uihilab/HLMWebFramework#Test-Examples) -->
-<!-- * [Community](https://github.com/uihilab/HLMWebFramework#Community) -->
-<!-- * [Feedback](https://github.com/uihilab/HLMWebFramework#Feedback) -->
-<!-- * [Scalability and To Do's](https://github.com/uihilab/HLMWebFramework#Scalability-and-To-Dos) -->
-<!-- * [License](https://github.com/uihilab/HLMWebFramework#License) -->
+<!-- * [Test Examples](https://github.com/uihilab/HLM-Web#Test-Examples) -->
+<!-- * [Community](https://github.com/uihilab/HLM-Web#Community) -->
+<!-- * [Feedback](https://github.com/uihilab/HLM-Web#Feedback) -->
+<!-- * [Scalability and To Do's](https://github.com/uihilab/HLM-Web#Scalability-and-To-Dos) -->
+<!-- * [License](https://github.com/uihilab/HLM-Web#License) -->
 
 ## Introduction
 HLM-Web is a physically-based, rainfall-runoff modelling engine capable of providing operational level results using client-side compute while running in a browser.
@@ -38,7 +38,7 @@ Currently implemented, HLW-Web is packaged with both constant and variable rainf
 Thus, **additional models can easily be added upon need and request**.
 
 ## Getting Started
-To get started, download the repo and run one of the [Test Cases](https://github.com/uihilab/HLMWebFramework/tree/master/test-cases), `Test` or `Clear Creek`.
+To get started, download the repo and run one of the [Test Cases](https://github.com/uihilab/HLM-Web/tree/master/test-cases), `Test` or `Clear Creek`.
 To do so, navigate to their folder and run the `.html` file.
 Respectively, they are:
 - `test-constant-runoff-test.html`, and
@@ -62,7 +62,7 @@ For the test cases provided, this function can be called via a click of a button
 Likewise, once the test case simulations are finished results will automatically be plotted in a figure.
 Below are the expected outputs from the test cases.
 <p align="center">
-    <img src = https://github.com/uihilab/HLMWebFramework/raw/master/images/Benchmarking-Combined.svg>
+    <img src = https://github.com/uihilab/HLM-Web/raw/master/images/Benchmarking-Combined.svg>
 </p>
 
 ## Data Inputs
@@ -159,7 +159,7 @@ var topology = {
 The above input data describes the network topology shown below.
 
 <p align="center">
-    <img style='max-height:330px;' src = https://github.com/uihilab/HLMWebFramework/raw/master/images/test-topo.jpg>
+    <img style='max-height:330px;' src = https://github.com/uihilab/HLM-Web/raw/master/images/test-topo.jpg>
 </p>
 
 #### Variable: `linksToStep`
