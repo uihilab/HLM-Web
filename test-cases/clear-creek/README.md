@@ -8,4 +8,4 @@ Outlet Drainage Area: 254 km<sup>2</sup>
 Number of Links: 6360
 
 ### Benchmark Results
-![](https://raw.githubusercontent.com/uihilab/HLMWebFramework/04fcbb4d6f4193cb5cf7d047065950d74b30ec26/images/ClearCreek-252-Benchmark.svg?token=ADQ6ON7RRO56MIMOWQP64SDBSPMXM)
+![](https://github.com/uihilab/HLM-Web/blob/main/images/ClearCreek-252-Benchmark.svg)
