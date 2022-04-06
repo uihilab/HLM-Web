@@ -12,10 +12,10 @@ Using the default settings provided in this example, the simulation takes less t
 - Number of Links: 11
 
 ### Network Topology
-![](https://github.com/uihilab/HLMWebFramework/raw/master/images/test-topo.jpg)
+![](https://github.com/uihilab/HLM-Web/raw/main/images/test-topo.jpg)
 
 ### Benchmark Results
 
 <p align="center">
-    <img src = https://github.com/uihilab/HLMWebFramework/blob/master/images/Test-190-Benchmark.svg>
+    <img src = https://github.com/uihilab/HLM-Web/blob/main/images/Test-190-Benchmark.svg>
 </p>
