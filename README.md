@@ -38,7 +38,7 @@ Currently implemented, HLW-Web is packaged with both constant and variable rainf
 Thus, **additional models can easily be added upon need and request**.
 
 ## Getting Started
-To get started, download the repo and run one of the [Test Cases](https://github.com/uihilab/HLM-Web/tree/master/test-cases), `Test` or `Clear Creek`.
+To get started, download the repo and run one of the [Test Cases](https://github.com/uihilab/HLM-Web/tree/main/test-cases), `Test` or `Clear Creek`.
 To do so, navigate to their folder and run the `.html` file.
 Respectively, they are:
 - `test-constant-runoff-test.html`, and
