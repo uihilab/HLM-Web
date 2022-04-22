@@ -1,0 +1,47 @@
+{
+	"model": 190,
+	"modelName":"HLM - Constant Runoff Model",
+	"begin": "2017-01-01 00:00",
+	"end": "2017-01-02 00:00",
+	"keep": [10,9,3,7,4,6,2,8,1,5,80],
+	"defaultStep": 3600,
+	"solver": {
+		"method": "RK4",
+		"firstStep": "null",
+		"limits"	: [1.000000e-6,0.000000e+00,0.000000e+00],
+		"err" : {
+			"abs": [1e-6, 1e-6, 1e-6, 1e-6, 1e-6, 1e-6, 1e-6],
+			"rel": [1e-6, 1e-6, 1e-6, 1e-6, 1e-6, 1e-6, 1e-6]}
+	},
+	"ICs": {"vals": [1.000000e-6,0.000000e+00,0.000000e+00]},
+	"simulationFiles": {
+		"prm":"prm-test.json",
+		"rvr":"rvr-test.json",
+		"str":"str-test.json",
+		"ics":"ics-test.json"
+	},
+	"globalParams" : {
+		"note"		: "not all of these are necessary for all models",
+		"A"   		: 0.0, 
+		"A_r"		: 1.0,
+		"B"    		: 99.0, 
+		"beta"		: 0.02,
+		"exponent" 	: 3.0,   
+		"h_b" 		: 0.5, 
+		"k_3"       : 2.0425e-6, 
+		"lambda_1"	: 0.20,
+		"lambda_2"	: -0.1,
+		"q_r"		: 1.0,
+		"RC"		: 0.33,
+		"S_L"  		: 0.10,
+		"s_r"		: 1.0,
+		"u"			: 2.3148148148148148e-8,
+		"v_B"		: 0.75,
+		"v_g"		: 2.2917e-5,
+		"v_h"		: 0.1,
+		"v_r"		: 0.33
+	},
+	"reporting" : {
+		
+	}
+}
