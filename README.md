@@ -5,11 +5,11 @@
 </p>
 
 ## Table of Contents
-* [Introduction](https://github.com/uihilab/HLMWebFramework#Introduction)
-* [About HLM](https://github.com/uihilab/HLMWebFramework#About-HLM)
-* [Getting Started](https://github.com/uihilab/HLMWebFramework#Getting-Started)
-* [Acknowledgements](https://github.com/uihilab/HLMWebFramework#Acknowledgements)
-* [References](https://github.com/uihilab/HLMWebFramework#References)
+* [Introduction](#introduction)
+* [About HLM](#about-hlm)
+* [Getting Started](#getting-started)
+* [Acknowledgements](#acknowledgements)
+* [References](#references)
 
 ## Introduction
 HLM-Web is a physically-based, rainfall-runoff modelling engine capable of providing operational level results using client-side compute while running in a browser.
@@ -31,6 +31,7 @@ This repo includes two versions of HLM-Web; **Standard** and **BMI**.
 **We encourage reading this documentation first.**
 
 The standard version is a standalone application.
+
 **Usage**: This version is best suited for those who intend to run HLM-Web alone without any need to couple the HLM-Web simulation external models or data.
 
 With this version we provide significant documentation and benchmarking results to show that HLM-Web's outputs correspond with the results from the previous C programming language implementation of the model.
@@ -39,6 +40,7 @@ This version has been documented in the literature and currently supports educat
 
 ### HLM-Web, BMI Version
 The second is an implementation of HLM-Web which complies with the [Basic Model Interface (BMI)](https://bmi-spec.readthedocs.io/en/latest/index.html) specification.
+
 **Usage**: This version is best suited for those who intend to couple external data sources or models with HLM-Web.
 
 Its documentation focuses more on its differences with and its capabilities beyond the standard implementation.
