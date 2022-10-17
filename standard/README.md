@@ -1,44 +1,19 @@
-# HLM-Web
+# Standard Version of HLM-Web
+Herein is the source and test cases for the stand version of HLM-Web.
 
-<p align="center">
-    <img width="350" src = https://github.com/uihilab/HLM-Web/blob/main/images/WebHLM-color.png>
-</p>
+## Table of contents
+* [Getting Started](#getting-started)
+* [Data Inputs](#Data-Inputs)
+	* [Global Input File](#global-input-file)
+	* [Network Connectivity File](#network-connectivity-file)
+	* [Parameter File](#parameter-file)
+	* [Precipitation Forcing File](#precipitation-forcing-file)
+	* [Evaporation Forcing File](#evaporation-forcing-file)
+* [Numerical Solver](#numerical-solver)
 
-## Table of Contents
-* [Introduction](https://github.com/uihilab/HLM-Web#Introduction)
-* [About HLM](https://github.com/uihilab/HLM-Web#About-HLM)
-* [Getting Started](https://github.com/uihilab/HLM-Web#Getting-Started)
-* [Data Inputs](https://github.com/uihilab/HLM-Web#Data-Inputs)
-	* [Global Input File](https://github.com/uihilab/HLM-Web#Global-Input-File)
-	* [Network Connectivity File](https://github.com/uihilab/HLM-Web#Network-Connectivity-File)
-	* [Parameter File](https://github.com/uihilab/HLM-Web#Parameter-File)
-	* [Precipitation Forcing File](https://github.com/uihilab/HLM-Web#Precipitation-Forcing-File)
-	* [Evaporation Forcing File](https://github.com/uihilab/HLM-Web#Evaporation-Forcing-File)
-* [Numerical Solver](https://github.com/uihilab/HLM-Web#Numerical-Solver)
-* [Acknowledgements](https://github.com/uihilab/HLM-Web#Acknowledgements)
-* [References](https://github.com/uihilab/HLM-Web#References)
-
-<!-- * [Test Examples](https://github.com/uihilab/HLM-Web#Test-Examples) -->
-<!-- * [Community](https://github.com/uihilab/HLM-Web#Community) -->
-<!-- * [Feedback](https://github.com/uihilab/HLM-Web#Feedback) -->
-<!-- * [Scalability and To Do's](https://github.com/uihilab/HLM-Web#Scalability-and-To-Dos) -->
-<!-- * [License](https://github.com/uihilab/HLM-Web#License) -->
-
-## Introduction
-HLM-Web is a physically-based, rainfall-runoff modelling engine capable of providing operational level results using client-side compute while running in a browser.
-"HLM" stands for the Hillslope Link Model, which is a family of mathematical models that describe rainfall-runoff and streamflow generation processes. 
-"Web" indicates that the package runs natively using modern web standards (i.e., JavaScript.)
-
-## About HLM
-HLM is a family of mathematical models that describe the physical processes of rainfall-runoff response and streamflow generation from a river network.
-Importantly, the directed tree structure of the river network aides in the computation of the numerical solution.
-HLM and a numerical solver have been implemented in other languages, namely in the [C Programming Language](https://asynch.readthedocs.io/en/latest/index.html) for the Iowa Flood Center's flood forecasting tool.
-Currently implemented, HLW-Web is packaged with both constant and variable rainfall-runoff models.
-[Many more models exist](https://asynch.readthedocs.io/en/latest/builtin_models.html) in the C Programming Language implementation.
-Thus, **additional models can easily be added upon need and request**.
 
 ## Getting Started
-To get started, download the repo and run one of the [Test Cases](https://github.com/uihilab/HLM-Web/tree/main/test-cases), `Test` or `Clear Creek`.
+To get started, download the repo and run one of the [Test Cases](https://github.com/uihilab/HLM-Web/tree/main/standard/test-cases), `Test` or `Clear Creek`.
 To do so, navigate to their folder and run the `.html` file.
 Respectively, they are:
 - `test-constant-runoff-test.html`, and
@@ -62,7 +37,7 @@ For the test cases provided, this function can be called via a click of a button
 Likewise, once the test case simulations are finished results will automatically be plotted in a figure.
 Below are the expected outputs from the test cases.
 <p align="center">
-    <img src = https://github.com/uihilab/HLM-Web/blob/main/images/Benchmarking-Combined.svg>
+    <img src = https://github.com/uihilab/HLM-Web/raw/master/images/Benchmarking-Combined.svg>
 </p>
 
 ## Data Inputs
@@ -159,7 +134,7 @@ var topology = {
 The above input data describes the network topology shown below.
 
 <p align="center">
-    <img style='max-height:330px;' src=https://github.com/uihilab/HLM-Web/blob/main/images/test-topo.jpg>
+    <img style='max-height:330px;' src = https://github.com/uihilab/HLM-Web/raw/main/images/test-topo.jpg>
 </p>
 
 #### Variable: `linksToStep`
@@ -239,9 +214,3 @@ var evap_monthly = [19.0, 18.0, 30.0, 32.0, 48.0, 77.0, 121.0, 112.0, 52.0, 20.0
 The current implementation uses an asynchronous RK4 integrator, with a dense method interpolation scheme for between-step approximations.
 This solver was tailored specifically to solve large systems of ordinary differential equations with a directed tree structure.
 Though this solver was tailored to hydrological problems, any problem with this structure could be solved using this solver.
-
-## Acknowledgements
-This project is developed by the [University of Iowa Hydroinformatics Lab (UIHI Lab)](https://hydroinformatics.uiowa.edu/).
-
-## References
-(in manuscript) Gregory Ewing, Ricardo Mantilla, Witold Krajewski, & Ibrahim Demir. Interactive Hydrological Modelling and Simulation on Client-Side Web Systems: An Educational Case Study.
