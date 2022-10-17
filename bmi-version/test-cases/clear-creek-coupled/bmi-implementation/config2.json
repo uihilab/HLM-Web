@@ -1,0 +1,60 @@
+{
+    "modelName": "start__model",
+    "modelCode": "MC-0000-00-00",
+    "moduleName": "data",
+    "functionName": "retrieve",
+    "args": {
+  "source": "nldas",
+  "dateTimeSpan": {
+    "startDate": "2015-01-01T00:00:00",
+    "endDate": "2015-01-08T00:00:00",
+    "dateTimeFormat": "yyyy-MM-dd HH"
+  },
+  "geometry": {
+    "description": null,
+    "comID": 0,
+    "hucID": null,
+    "stationID": null,
+    "point": {
+      "latitude": 33.925673,
+      "longitude": -83.355723
+    },
+    "geometryMetadata": null,
+    "timezone": null
+  },
+  "dataValueFormat": "E3",
+  "temporalResolution": "default",
+  "timeLocalized": false,
+  "units": "metric",
+  "outputFormat": "json",
+  "baseURL": null,
+  "inputTimeSeries": null
+    },
+    "params": {
+        "source": "epa",
+        "datatype": "precipitation",
+	"proxyurl": "https://cors-anywhere.herokuapp.com/"
+    },
+    "duration": {
+        "defaultStep": 1,
+        "timeUnit": "h"
+    },
+    "inputVars": [
+        "input__1",
+        "input__2"
+    ],
+    "outputVars": [
+        "output__1",
+        "output__2"
+    ],
+    "units": {
+        "input": [
+            "mm",
+            "mm"
+        ],
+        "output": [
+            "ft",
+            "ft"
+        ]
+    }
+}

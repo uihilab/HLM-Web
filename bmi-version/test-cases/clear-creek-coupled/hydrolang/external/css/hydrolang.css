@@ -1,0 +1,185 @@
+#hydrolang{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+
+#hydrolang h1{
+    font-family: monospace
+}
+
+#hydrolang .maps {
+    height: 400px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+
+dataset { font-size: 0; }
+
+.charts {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+    font-family: monospace;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.charts button{
+    font-family: monospace;
+    position: absolute;
+}
+
+.tables {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+    font-family: monospace;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.leaflet-container{
+    font-family: monospace;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+table.google-visualization-table-table {
+    font-family: monospace;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jsonrender{
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+    background-color: #eaeaea;
+    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    height: 300px;
+    width: 1000px;
+    border-radius: 7px;
+    overflow-x: scroll;
+    border-style: solid;
+    padding: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .jsonrender #text{
+    color: black;
+    font-family: monospace
+ }
+ 
+ .renderjson a {
+     text-decoration: none;
+     color: black;
+     overflow: auto;
+     font-size: 15px;
+     font-family: monospace;
+ }
+ 
+ .renderjson .disclosure {
+     color: red;
+     font-weight: bold;
+     font-size: 15px;
+     overflow: auto;
+     font-family: monospace;
+ }
+ 
+ .renderjson .syntax {
+     color: black;
+     font-size: 15px;
+     overflow: auto;
+     font-family: monospace;
+ }
+ 
+ .renderjson .string {
+     color: red;
+     font-size: 15px;
+     overflow: auto;
+     font-family: monospace;
+ }
+ 
+ .renderjson .number {
+     color: red;
+     font-size: 15px;
+     overflow: auto;
+     font-family: monospace;
+ }
+ 
+ .renderjson .boolean {
+     color: black;
+     font-size: 15px;
+     font-family: monospace;
+ }
+ 
+ .renderjson .key {
+     color: purple;
+     font-size: 15px;
+     font-family: monospace;
+ }
+ 
+ .renderjson .keyword {
+     color: purple;
+     font-size: 15px;
+     font-family: monospace;
+ }
+ 
+ .renderjson .object.syntax {
+     color: black;
+     font-size: 15px;
+     font-family: monospace;
+ }
+ 
+ .renderjson .array.syntax {
+     color: black;
+     font-size: 15px;
+     font-family: monospace;
+ }
+
+ .note {
+    width: 500px;
+    margin: 50px auto;
+    font-size: 1.1em;
+    color: #333;
+    text-align: justify;
+  }
+  #drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 480px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  #drop-area.highlight {
+    border-color: purple;
+  }
+
+  .upload-form {
+    margin-bottom: 10px;
+  }
+
+  #button {
+    display: inline-block;
+    padding: 10px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .button:hover {
+    background: #ddd;
+  }
+  #fileElem {
+    display: none;
+  }
+

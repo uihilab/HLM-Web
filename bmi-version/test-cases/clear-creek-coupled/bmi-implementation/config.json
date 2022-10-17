@@ -1,0 +1,37 @@
+{
+    "modelName": "start__model",
+    "modelCode": "MC-0000-00-00",
+    "moduleName": "data",
+    "functionName": "retrieve",
+    "args": {
+        "link": "all",
+        "startDate": "2018-09-28 00:00",
+        "endDate": "2018-10-12 00:00"
+    },
+    "params": {
+        "source": "clearcreek",
+        "datatype": "req-data"
+    },
+    "duration": {
+        "defaultStep": 1,
+        "timeUnit": "h"
+    },
+    "inputVars": [
+        "input__1",
+        "input__2"
+    ],
+    "outputVars": [
+        "output__1",
+        "output__2"
+    ],
+    "units": {
+        "input": [
+            "mm",
+            "mm"
+        ],
+        "output": [
+            "ft",
+            "ft"
+        ]
+    }
+}
