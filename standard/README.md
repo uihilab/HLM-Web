@@ -37,7 +37,7 @@ For the test cases provided, this function can be called via a click of a button
 Likewise, once the test case simulations are finished results will automatically be plotted in a figure.
 Below are the expected outputs from the test cases.
 <p align="center">
-    <img src = https://github.com/uihilab/HLM-Web/raw/master/images/Benchmarking-Combined.svg>
+    <img src = https://github.com/uihilab/HLM-Web/raw/main/images/Benchmarking-Combined.svg>
 </p>
 
 ## Data Inputs
