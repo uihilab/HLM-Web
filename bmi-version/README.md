@@ -5,11 +5,11 @@ Here you will find the refactored source code and test cases that use the codeba
 For those unfamiliar with the Basic Model Interface (BMI) specification, we encourage you to acquiant yourself with the project via its [documentation](https://bmi-spec.readthedocs.io/en/latest/index.html).
 
 ## Table of Contents
-- [Getting Started](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#getting-started)
-- [Loading the codebase](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#loading-the-codebase)
-- [Usage](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#usage)
-- [Configuration Files](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#Configuration-Files)
-- [Simulation Files](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#Simulation-Files)
+- [Getting Started](#getting-started)
+- [Loading the codebase](#loading-the-codebase)
+- [Usage](#usage)
+- [Configuration Files](#configuration-files)
+- [Simulation Files](#simulation-files)
 
 ## Getting Started
 To get started, download the repo and run one of the Test Cases, `Test` or `Clear Creek`.
@@ -59,7 +59,7 @@ To prepare an empty HLM type object for use, you would then perform:
 model.initialize('<config file path here>.json');
 ```
 
-**Note:** See [Configuration Files](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#Configuration-Files) for details on the contents of the config files.
+**Note:** See [Configuration Files](#configuration-files) for details on the contents of the config files.
 
 ### Advancing Model Foward in Time
 Models are advanced in time using either of the following methods:
@@ -73,7 +73,7 @@ model.update(<time>);
 
 When using `update()`, no time goal is supplied and the model should step its default timestep.
 We allow the user to define set the default time step via the `defaultStep` property in the configuration file.
-(See [Configuration Files](https://github.com/uihilab/HLM-Web/tree/master/bmi-version#Configuration-Files) below.)
+(See [Configuration Files](#configuration-files) below.)
 For testing, we have used 3600 seconds (i.e., 1 hour,) as our default time step.
 
 **Note:** Internally, the adaptive stepsize numerical solver often takes many smaller steps than the default interval provided to ensure a solution that conforms to the error thresholds provided it in the configuration file in the `solver.err` property.
