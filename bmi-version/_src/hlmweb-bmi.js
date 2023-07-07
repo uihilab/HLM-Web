@@ -509,7 +509,7 @@ export default class HLM extends BMI {
 	 * @param {String} name - An input or output variable name, a CSDMS Standard Name
 	 * @return {Number} - The current model time.
 	 */
-	get_current_time(){return this._startDt.setSeconds(this._startDt + this._now);}
+	get_current_time(){return new Date(this._startDt.getTime() + this._now * 1000);}
 
 	/**
      * Start time of the model. Model times should be of type float
