@@ -11,6 +11,8 @@ To replicate the coupled simulation:
 - Click "OK" in pop up window.
 - start the simulation by calling `coupledSimulation();`
 
+![](../../../images/coupled-models-flowchart.png)
+
 ## References
 
 Further information about this project can be found in our [pre-print article](https://doi.org/10.31223/X5XP93)
