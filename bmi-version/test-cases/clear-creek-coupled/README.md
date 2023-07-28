@@ -12,6 +12,7 @@ To replicate the coupled simulation:
 - start the simulation by calling `coupledSimulation();`
 
 ![](../../../images/coupled-models-flowchart.png)
+*Flowchart to couple the client-side data and model resources via the BMI specification*
 
 ## References
 
